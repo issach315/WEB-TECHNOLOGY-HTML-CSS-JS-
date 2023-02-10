@@ -1,7 +1,26 @@
+p
+{
+    background-color: rgb(233, 213, 188);
+    text-align: left;
+    width: auto;
+    color: rgb(0, 69, 0);
+}
 #h
 {
     color: maroon;
     font-size: 30px;
     text-align: center;
     background-color: beige;
+    border: 2px solid pink;
+
+}
+.s1
+{
+    background-color: aqua;
+    color: black;
+    border: 2px solid hotpink;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
 }
