@@ -20,11 +20,10 @@ p
     color: black;
     border: 2px solid hotpink;
     font-size: 30px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
 }
-<<<<<<< HEAD
 hr{
     border: 3px solid red;
 }
@@ -37,5 +36,10 @@ hr{
     background-color: darksalmon;
 }
 
-=======
->>>>>>> 704be776a0214f94786b7b4e9a31ff757091b06e
+p+h1{
+    background-color: rgb(49, 49, 160);
+    color: white;
+}
+p~h3{
+    background-color: chartreuse;
+}

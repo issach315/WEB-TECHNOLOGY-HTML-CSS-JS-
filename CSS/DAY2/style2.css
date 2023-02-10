@@ -1,0 +1,41 @@
+/* div::first-letter
+{
+    color: rgb(255, 34, 0);
+    font-variant:small-caps ;
+   
+
+
+} */
+
+/* div::first-line
+{
+    text-transform:capitalize;
+    font-size: larger;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+} */
+
+/* div::before
+{
+content: "Hello Issach";
+color: rgb(30, 11, 201);
+} */
+
+/* div::after
+{
+    content: "Hellow issach";
+    background-color: chartreuse;
+    font-size: 20px;
+    font-style: italic;
+    
+} */
+
+/* div::selection
+{
+    background-color:khaki;
+    color:brown;
+
+}
+ */
+
+ 
