@@ -24,3 +24,15 @@ p
     text-align: center;
 
 }
+hr{
+    border: 3px solid red;
+}
+
+#div1 > p
+{
+    background-color: darkcyan;
+}
+#div2 p{
+    background-color: darksalmon;
+}
+
