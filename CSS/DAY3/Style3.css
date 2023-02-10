@@ -1,0 +1,65 @@
+/* p[title="com"]
+{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+
+     it only selects the particular word  exact title
+
+} */
+
+/* p[title~="com"]
+{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+     com ane oka  word title kinda vunte chalu [title=" jom com food "] 
+
+} */
+/* p[title|="com"]
+{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+
+    it selects only like exact title or like[title="com-uooj"]
+
+} */
+
+/* p[title^="com"]
+{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    it selects only title begins with like[title="comnumm"]
+
+} */
+
+
+/* p[title$="com"]
+{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    it is similar to the power selector word ends with like title[title="dommcom"]
+} */
+
+/* p[title*="com"]
+{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+
+    it select  title is present in anywhere in the title like[title="decom"]
+
+} */
+
+input[title="email"]
+{
+    background-color: rgb(88, 161, 161);
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+    border: 3px solid black;
+    font-family: 'Times New Roman';
+
+}
