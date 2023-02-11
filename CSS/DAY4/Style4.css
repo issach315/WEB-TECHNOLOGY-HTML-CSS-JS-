@@ -1,0 +1,63 @@
+.d1:hover
+{
+    background-color: violet;
+    font-size: 30px;
+
+}   
+
+a:link
+{
+    color: brown;
+
+}
+a:visited
+{
+    color: chartreuse;
+}
+a:active
+{
+    color: darkorange;
+}
+#last:target{
+    color: black;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#first:target{
+    color: black;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium';
+}
+
+input:required
+{
+    background-color: aquamarine;
+    font-family: 'Times New Roman';
+    border: 2px solid green;
+}
+
+input:read-only
+{
+    background-color: aquamarine;
+    font-family: 'Times New Roman';
+    border: 2px solid green;
+}
+input:valid
+{
+    background-color: rgb(214, 89, 0);
+    font-family: 'Times New Roman';
+    border: 2px solid rgb(0, 0, 128);
+}
+p:first-child
+{
+    color: blueviolet;
+}
+p:nth-child(10)
+{
+    color: rgb(0, 17, 255);
+}
+ol:only-of-type
+{
+    color: pink;
+}
