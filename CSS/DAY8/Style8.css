@@ -1,0 +1,10 @@
+#d1
+{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 10px 10px 0px 10px red;
+
+    /* box-shadow: vertical horizontal radius-blur spread-distance  shadow-color ; */
+
+}

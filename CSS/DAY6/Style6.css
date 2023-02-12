@@ -1,0 +1,36 @@
+ #d1
+{
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    background-color: aqua;
+    position:absolute;
+}   
+#d2
+{
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    bottom: 1000px;
+    left: 110px;
+    background-color: blue;
+    position: fixed;
+}
+#d3
+{
+    width: 100px;
+    height: 100px;
+    top: 115px;
+    left: 220px;
+    position: relative;
+    background-color: chartreuse;
+}
+#d
+{
+    /* background-color: darkseagreen; */
+    /* width: 500px;
+    height: 1500px;
+    
+
+} 
+ 
