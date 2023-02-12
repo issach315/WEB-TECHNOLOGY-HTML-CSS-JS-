@@ -8,3 +8,22 @@
     /* box-shadow: vertical horizontal radius-blur spread-distance  shadow-color ; */
 
 }
+#d12
+{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin-top: 200px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 10px green ;
+}
+#d13
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 217, 0);
+    margin-top: 200px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 10px red;
+    /* box-shadow: 0px 10px 10px 10px rgb(182, 123, 123); */
+}
