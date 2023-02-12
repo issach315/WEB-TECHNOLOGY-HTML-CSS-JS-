@@ -1,0 +1,78 @@
+#d1
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(red,green,white);
+    border: 2px solid black;
+}
+#d2
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient( to top, rgb(221, 204, 204),blue,yellow);
+    border: 2px solid black;
+}#d3
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom,yellow,pink,maroon);
+    border: 2px solid black;
+}#d4
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to left top,pink,green,rgb(139, 11, 32));
+    border: 2px solid black;
+}#d5
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to left bottom,rgb(123, 123, 123),hotpink,rgb(97, 0, 97));
+    border: 2px solid black;
+}#d6
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right top,red,green,white);
+    border: 2px solid black;
+}#d7
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right bottom,red,green,white);
+    border: 2px solid black;
+}#d8
+{
+    width: 100px;
+    height: 100px;
+    background:radial-gradient(circle,red,green,white);
+    border: 2px solid black;
+}
+#d9
+{
+    width: 100px;
+    height: 100px;
+    background-image:radial-gradient(ellipse,red,green,white);
+    border: 2px solid black;
+}
+#d10
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(red,green,white);
+    border: 2px solid black;
+}
+#d11
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,red,green,white);
+    border: 2px solid black;
+}
+#d12
+{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to left,red,green,white);
+    border: 2px solid black;
+}

@@ -1,0 +1,7 @@
+h2
+{
+    background-image: linear-gradient(to right,yellow,red,pink);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Times New Roman';
+}
