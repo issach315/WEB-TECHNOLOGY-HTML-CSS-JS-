@@ -1,0 +1,17 @@
+body
+{
+    background-color: aqua;
+}
+.container
+{
+    display: flex;
+
+}
+@media screen and (max-width:500px)
+{
+    body
+    {
+        background-color: blue;
+
+    }
+}

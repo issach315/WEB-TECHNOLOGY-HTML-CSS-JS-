@@ -7,8 +7,9 @@
     width: 200px;
     height: 200px;
     background-image: linear-gradient(to right top,rgb(9, 88, 10) ,rgb(88, 162, 121),rgb(8, 73, 13));
-   border-top-right-radius: 200px;
-   border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px; 
+  
 
 }
 body
