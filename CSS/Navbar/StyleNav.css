@@ -60,7 +60,7 @@
     }
     .navbar{
         flex-direction: column;
-        align-items: start;
+        align-items:start;
     }
     .menu ul{
         flex-direction: column;
