@@ -1,0 +1,8 @@
+console.log(12+'3')
+console.log(12-'2')
+console.log(12*'3')
+console.log(12/'3')
+console.log(12%'3')
+console.log(12-'s')
+console.log(false-12)
+console.log(12+true)
