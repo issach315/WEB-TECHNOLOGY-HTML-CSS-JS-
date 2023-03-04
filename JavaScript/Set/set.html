@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var x =[67,78,98,90,57,45,34,11]
+        console.log(x)
+
+        /*The Set object lets you store unique values of any type,
+         whether primitive values or object references.*/
+
+        // Adding the lements to the set datatype
+
+        /*Methods present in set 
+        1.add(object)
+        2.delete(object)
+        3.clear():- void
+        4.has(object): boolean
+        5.entries()
+        6.size : integer
+        7.*/
+        var s1 =new Set(x)
+        
+        // s1.add(20)
+        //   .add(59)
+        //   .add(28)
+
+         console.log(s1)
+
+
+         console.log(' set size :=  '+s1.size)
+        s1.delete(67)
+         console.log(s1)
+         
+         console.log(' set size :=  '+s1.size)
+         console.log(s1.has(78) +'   : ---checking the element is present or not ')
+
+         console.log(s1.values())
+         console.log(s1.entries())
+         s1.clear()
+         console.log(s1)
+
+    </script>
+    
+</body>
+</html>
