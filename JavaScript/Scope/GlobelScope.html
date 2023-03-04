@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // 1.block level scope
+
+        // function test()
+        // {
+        //     /* let x=12; ---> we can access the x in only in block because of 
+        //          we are declare inside the function*/
+        //     console.log(x);
+        // }
+        // test()
+
+
+        /*we can access the var type decleration
+        from the block and the outsidethe block  */ 
+        {
+
+            var a=112;
+            let b =133;
+            const c=144;
+        
+        }
+
+        function test1()
+        {
+            console.log(a);
+            // console.log(c);
+            // console.log(a);
+            
+           
+        }
+       
+        test1()
+
+        
+       
+
+    </script>
+    
+</body>
+</html>
