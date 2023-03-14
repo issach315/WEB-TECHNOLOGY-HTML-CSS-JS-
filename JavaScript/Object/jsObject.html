@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+       /*let car ={name:"Bugatti",price:"16 Cr" ,hp:4500,model:'BTZZQQ2023'}
+
+        console.log(car['name'])
+
+        car.name="Audi"
+
+        car.color="purple"
+
+        console.log(car['name'])
+        console.log(car)*/
+
+
+        function user(name,age,place)
+        {
+            this.name=name;
+            this.age=age;
+            this.place=place;
+            this.login=function()
+            {
+                console.log("logged In "+"  "+this.name +" "+"Successfully completed")
+
+            }
+
+        }
+
+        let user1 =new user("issach",24,"HYD")
+
+         user1.login()
+
+        
+
+
+
+    </script>
+    
+</body>
+</html>
