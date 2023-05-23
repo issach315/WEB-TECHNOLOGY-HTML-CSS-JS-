@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+
+        <h1 style="color:rgb(16, 53, 123)">date validation in javaScript</h1>
+
+
+        <form action="success.html" method="post" onsubmit="return validateMobileNo()" name="myform">
+        <label > Enter mobile No  : </label>
+        <input type="number" name="mobile1"><br><br>
+
+        <input type="submit" value="Done">
+
+        
+        </form>
+
+        <script>
+
+            function validateMobileNo()
+            {
+                var mobile2 = document.myfrom.mobile1.value;
+
+                if (mobile2>5900000000 && mobile2<10000000000) {
+                    
+                    return true;
+                }
+                else{
+
+                    alert("enter valid Mobile Number");
+
+                    return false;
+                }
+            }
+        </script>
+    </center>
+    
+</body>
+</html>

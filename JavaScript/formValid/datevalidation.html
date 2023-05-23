@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+
+        <h1 style="color:rgb(16, 53, 123)">date validation in javaScript</h1>
+
+
+        <form action="success.html" method="post" onsubmit="return validatadate()" name="myform">
+        <label > Enter DOB : </label>
+        <input type="date" name="date1"><br><br>
+
+        <input type="submit" value="Done">
+
+        
+        </form>
+
+        <script>
+
+            function validatadate()
+            {
+                var currentDate = new Date();
+
+                var date2= new Date(document.myform.date1.value);
+
+                if (date2>currentDate) {
+                    
+                    alert("please enter valid date")
+                    return false;
+                }
+            }
+        </script>
+    </center>
+    
+</body>
+</html>
